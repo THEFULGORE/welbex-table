@@ -1,0 +1,52 @@
+.filter {
+	margin-bottom: 2rem;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+	&__condition {
+		align-items: center;
+		display: flex;
+		gap: 1rem;
+	}
+	&__buttons {
+		display: flex;
+		gap: 0.5rem;
+	}
+	select {
+		border-radius: 5px;
+		font-size: 1rem;
+	}
+	input {
+		border-radius: 5px;
+		font-size: 1rem;
+		border: 1px solid hsl(0, 0%, 30%);
+	}
+	button {
+		font-size: 1rem;
+		border: 1px solid hsl(0, 0%, 30%);
+		border-radius: 5px;
+		cursor: pointer;
+		align-items: center;
+		&:hover {
+			transition: 0.5s;
+			background-color: hsl(0, 0%, 30%);
+			color: white;
+		}
+	}
+}
+
+select {
+	padding: 0.2rem;
+}
+
+input {
+	padding: 0.2rem;
+}
+
+button {
+	padding: 0.2rem;
+}

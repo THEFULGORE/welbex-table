@@ -1,0 +1,48 @@
+.table {
+	margin-bottom: 2rem;
+	span {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+	th {
+		padding: 0 1rem;
+	}
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.arrow-up {
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid black;
+	margin-right: 0.5rem;
+}
+
+.arrow-down {
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid black;
+	margin-right: 0.5rem;
+}
